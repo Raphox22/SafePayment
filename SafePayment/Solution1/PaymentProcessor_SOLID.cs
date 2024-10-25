@@ -28,7 +28,7 @@ public class PixPayment : IPaymentMethod
     }
 }
 
-public class BankTransferPayment : IPaymentMethod
+public class BoletoPayment : IPaymentMethod
 {
     public void ProcessPayment(decimal amount)
     {
